@@ -16,7 +16,6 @@ char	*joinchar(char const *s1, char c)
 {
 	int		len;
 	int		i;
-	int		j;
 	char	*res;
 
 	len = ft_strlen(s1) + 1;
@@ -24,7 +23,6 @@ char	*joinchar(char const *s1, char c)
 	if (!res)
 		return (NULL);
 	i = 0;
-	j = 0;
 	while (s1 && s1[i])
 	{
 		res[i] = s1[i];
